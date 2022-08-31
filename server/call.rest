@@ -1,0 +1,14 @@
+
+### Get Article List
+GET https://630bd252ed18e8251659652a.mockapi.io/home
+
+### Get an article by id
+GET https://630bd252ed18e8251659652a.mockapi.io/home/1
+
+### Post an article
+POST https://630bd252ed18e8251659652a.mockapi.io/home
+{
+    "title" : "Article Title",
+    "description" : "Article TEXT"
+}
+
