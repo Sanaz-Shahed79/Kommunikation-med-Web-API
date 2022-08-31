@@ -8,12 +8,16 @@ I den här uppgiften ska du skapa en webbplats som visar information hämtad fr�
 Installerar: för att starta projektet måste du göra följande:
 Öppna projekt i din kodredigerare.
 
+
 Öppna terminalen. Se till att du står i mappen "server":
 
 Npm install
+
 Npm start
+
 
 Omdirigera till "client":
 
 Npm install
+
 Npm run dev
