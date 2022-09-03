@@ -1,0 +1,51 @@
+#articles-wrapper{
+    padding: 20px 0;
+}
+.card{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card .card-image::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.471);
+    border-radius: 10px;
+}
+.card .card-info{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+    .card img{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .card .card-title{
+        font-size: 1.3rem;
+        font-weight: 100;
+        margin: 5px 0;
+        color: white;
+        z-index: 11111111;
+    }
+    .card .card-date{
+        color: white;
+        font-size: 0.8rem;
+        color: yellow;
+    }
+    .card{}
+    .card{}

@@ -1,0 +1,38 @@
+#article-show {
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+    #article-show img{
+        display: block;
+        width: 40%;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    #article-show .article-title{
+        font-weight: 100;
+        font-size: 2rem;
+    }
+    #article-show .article-description{
+        color: rgb(67, 67, 67);
+        font-style: italic;
+    }
+    #article-show .article-date{
+        color: rgb(0, 94, 255);
+    }
+
+/*Styles*/
+.btn-delete{
+    border: none;
+    background-color: rgb(255, 76, 76);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-delete:hover{
+    border: none;
+    background-color: red;
+}
