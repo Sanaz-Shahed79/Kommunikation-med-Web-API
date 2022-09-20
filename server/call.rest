@@ -1,14 +1,20 @@
 
-### Get Article List
-GET https://630bd252ed18e8251659652a.mockapi.io/home
+### Get Article List (external)
+GET http://localhost:3000/api/external
+
+### Get Article List (internal)
+GET http://localhost:3000/api/articles
 
 ### Get an article by id
-GET https://630bd252ed18e8251659652a.mockapi.io/home/1
+GET http://localhost:3000/api/articles/2
 
 ### Post an article
-POST https://630bd252ed18e8251659652a.mockapi.io/home
+POST http://localhost:3000/api/articles/add
+Content-Type: application/json
+
 {
     "title" : "Article Title",
     "description" : "Article TEXT"
 }
+
 
