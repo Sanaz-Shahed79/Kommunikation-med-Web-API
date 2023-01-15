@@ -11,7 +11,7 @@ Installerar: för att starta projektet måste du göra följande:
 
 Öppna terminalen. Se till att du står i mappen "server":
 
-cd server
+Cd server
 
 Npm install
 
@@ -20,7 +20,7 @@ Npm start
 
 Omdirigera till "client":
 
-cd client
+Cd client
 
 Npm install
 
